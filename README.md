@@ -1,25 +1,28 @@
---- Profile Card - Sherif Muhammed
+## Profile Card - Sherif Muhammed
 
 A responsive, accessible profile card built with HTML, CSS, and vanilla JavaScript for HNG Stage 0.
 
---- Features
+---
 
-Shows name, bio, avatar, current time (auto-updating), social links, hobbies, and dislikes
+## Features
 
-Fully responsive (mobile/tablet/desktop)
+- Shows name, bio, avatar, current time (auto-updating), social links, hobbies, and dislikes
 
-Uses semantic HTML and data-testid attributes for automated testing
+- Fully responsive (mobile/tablet/desktop)
 
+- Uses semantic HTML and data-testid attributes for automated testing
 
---- Live Demo
-
-https://muashef.github.io/HNG-Stage0-Profile-card/
-
---- Run Locally
-
-Clone the repo:
-
-git clone https://github.com/your-username/profile-card.git
+---
 
 
-Open index.html in your browser.
+## Live Demo
+
+- https://muashef.github.io/HNG-Stage0-Profile-card/
+
+## Run Locally
+
+- Clone the repo:
+
+- git clone https://github.com/your-username/profile-card.git
+
+- Open index.html in your browser.
