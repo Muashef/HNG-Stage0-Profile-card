@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <article data-testid="test-profile-card">
+            <figure>
+                <img src="./assets/moh.jpg" alt="Sherif Muhammed" data-testid="test-user-avatar">
+            </figure>
+
+            <header>
+                <h2 data-testid="test-user-name">Huncho</h2>
+                <p data-testid="test-user-bio">I like to build beautiful, fun and interactive things with code. I'm dedicated to the quest of developing solutions that leverage on best practice technologies to deliver over the top user experiences.</p>
+
+                <p>Current Time: <span class="time" data-testid="test-user-time"></span></p>
+
+                <nav>
+                    <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-twitter">Twitter</a>
+                    <a href="https://github.com" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-github">Github</a>
+                </nav>
+
+                <section>
+                    <h3>Hobbies</h3>
+                    <li>Football</li>
+                    <li>Music</li>
+                    <li>Coding</li>
+                </section>
+
+                <section>
+                    <h3>Dislikes</h3>
+                    <ul data-testid="test-user-dislikes">
+                        <li>Bugs</li>
+                        <li>Dishonesty</li>
+                        <li>Selfishness</li>
+                    </ul>
+                </section>
+            </header>
+        </article>
+    </main>
+
+    <script>
+        function updateTime() {
+        const timeElement = document.querySelector('[data-testid="test-user-time"]');
+        timeElement.textContent = Date.now();
+    }
+
+        updateTime();
+        setInterval(updateTime, 1000);
+    </script>
+</body>
+</html>
