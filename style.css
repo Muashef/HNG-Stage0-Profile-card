@@ -105,8 +105,13 @@ p[data-testid="test-user-bio"] {
 
 nav[data-testid="test-user-social-links"] {
   display: flex;
-  gap: 20px;
+  flex-direction: column;
+  gap: 15px;
   margin-top: 10px;
+}
+
+nav h3{
+  border-bottom: 2px solid #4CAF50;
 }
 
 nav a {
