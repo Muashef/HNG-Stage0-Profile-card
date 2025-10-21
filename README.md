@@ -1,16 +1,30 @@
 ## Profile Card - Sherif Muhammed
 
-A responsive, accessible profile card built with HTML, CSS, and vanilla JavaScript for HNG Stage 0.
+This project extends my Stage 0 task into a multi page responsive website built with pure HTML, CSS, and JavaScript.
 
 ---
 
 ## Features
 
-- Shows name, bio, avatar, current time (auto-updating), social links, hobbies, and dislikes
+- Fully semantic and accessible HTML structure.
 
-- Fully responsive (mobile/tablet/desktop)
+- Shared color theme and navigation across all pages.
 
-- Uses semantic HTML and data-testid attributes for automated testing
+- Form validation for required fields and valid email.
+
+- Responsive layout for mobile and desktop.
+
+- Includes required data-testid attributes for testing.
+
+---
+
+## Pages
+
+- Profile – profile card with live updating time, hobbies, dislikes, and social links.
+
+- Contact Us – accessible form with validation and success/error messages.
+
+- About Me – reflective sections about goals, challenges, and thoughts.
 
 ---
 
