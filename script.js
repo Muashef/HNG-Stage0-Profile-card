@@ -1,4 +1,4 @@
-// Profile card time update
+//time update
 function updateTime() {
   const timeElement = document.querySelector('[data-testid="test-user-time"]');
   if(timeElement) {
@@ -25,13 +25,11 @@ if(contactForm) {
     const subject = document.querySelector('[data-testid="test-contact-subject"]');
     const message = document.querySelector('[data-testid="test-contact-message"]');
 
-    // Name validation
     if(!name.value.trim()) {
       document.querySelector('[data-testid="test-contact-error-name"]').textContent = 'Name is required';
       isValid = false;
     }
 
-    // Email validation
     const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if(!email.value.trim()) {
       document.querySelector('[data-testid="test-contact-error-email"]').textContent = 'Email is required';
@@ -41,13 +39,11 @@ if(contactForm) {
       isValid = false;
     }
 
-    // Subject
     if(!subject.value.trim()) {
       document.querySelector('[data-testid="test-contact-error-subject"]').textContent = 'Subject is required';
       isValid = false;
     }
 
-    // Message
     if(!message.value.trim()) {
       document.querySelector('[data-testid="test-contact-error-message"]').textContent = 'Message is required';
       isValid = false;
@@ -56,7 +52,6 @@ if(contactForm) {
       isValid = false;
     }
 
-    // Success
     if(isValid) {
       if(successMessage) successMessage.textContent = 'Your message has been sent successfully!';
       contactForm.reset();

@@ -1,4 +1,3 @@
-/* Reset */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -12,7 +11,6 @@ body {
   padding: 20px;
 }
 
-/* Navigation */
 nav.site-nav {
   display: flex;
   justify-content: center;
@@ -36,13 +34,11 @@ nav.site-nav a:focus {
   outline: none;
 }
 
-/* Card / Page Container */
 .container {
   max-width: 900px;
   margin: 0 auto;
 }
 
-/* Profile Card */
 article[data-testid="test-profile-card"] {
   display: flex;
   flex-direction: column;
@@ -156,7 +152,6 @@ ul li {
   color: #555;
 }
 
-/* Responsive layout */
 @media(min-width: 768px) {
   article[data-testid="test-profile-card"] {
     flex-direction: row;
@@ -169,7 +164,6 @@ ul li {
   }
 }
 
-/* Contact form */
 form.contact-form {
   display: flex;
   flex-direction: column;
@@ -226,7 +220,6 @@ button[type="submit"]:focus {
   outline: none;
 }
 
-/* About page sections */
 .about-section {
   background: #fff;
   padding: 20px;
